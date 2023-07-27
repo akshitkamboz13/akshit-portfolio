@@ -41,7 +41,7 @@ Follow these steps to get the project up and running on your local machine:
 5. **Access the Project:**
    Once the project is running, open your web browser and navigate to [http://localhost:PORT](http://localhost:3000) 
 
-That's it! You should now have the project running locally on your machine. If you encounter any issues during the installation process or while using the project, please refer to the [Contributing](##contributing) section for help on reporting issues.
+That's it! You should now have the project running locally on your machine. If you encounter any issues during the installation process or while using the project, please refer to the [Contributing](## contributing) section for help on reporting issues.
 
 Feel free to explore and contribute to the project! Happy coding! 🚀
 

@@ -118,7 +118,7 @@ font-size: 90%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.myworkparent, .myskillparent, .mycvparent{
+.myworkparent, .myskillparent, .mycvparent, .mycontactparent{
   background: repeating-linear-gradient(
     -45deg,
     #f0f0f0,
@@ -126,7 +126,7 @@ font-size: 90%;
     transparent 10px,
     transparent 20px
   );
-  background-size: 20px 40px;
+  background-size: 40px 40px;
 }
 .myengg4 {
   color: olive;
@@ -162,3 +162,9 @@ border-style: double;
                   linear-gradient(45deg, #f0f0f0 25%, transparent 25%);
       background-size: 20px 20px;
 }*/
+ meter::-webkit-meter-optimum-value { /* chrome pseudo class */
+  background: olive;
+}
+meter::-moz-meter-bar { /* Firefox Pseudo Class */
+  background: olive;
+}
