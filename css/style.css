@@ -10,10 +10,10 @@
   font-family: poppins;
   src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
 }
-* {
+/* * {
   margin: 0%;
   padding: 0%;
-}
+} */
 html,
 body {
   height: 100%;
@@ -23,9 +23,11 @@ body {
 
 
 #mynav {
+  width: 100%;
   background-color: rgba(218, 218, 204, 1);
-  position: sticky;
+  position: fixed;
   top: 0%;
+ 
 }
 #mynavskill {
   background-color: #e6e4e5;
@@ -162,9 +164,20 @@ border-style: double;
                   linear-gradient(45deg, #f0f0f0 25%, transparent 25%);
       background-size: 20px 20px;
 }*/
- meter::-webkit-meter-optimum-value { /* chrome pseudo class */
-  background: olive;
+
+
+/* .divpro {
+  display: inline-block;
 }
-meter::-moz-meter-bar { /* Firefox Pseudo Class */
-  background: olive;
+
+.label-left {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
 }
+
+.label-right {
+  position: absolute;
+  bottom: -25px;
+  right: 0;
+} */
