@@ -164,9 +164,15 @@ border-style: double;
                   linear-gradient(45deg, #f0f0f0 25%, transparent 25%);
       background-size: 20px 20px;
 }*/
+ /* meter::-webkit-meter-optimum-value { // chrome pseudo class 
+  background: olive;
+}
+meter::-moz-meter-bar { // Firefox Pseudo Class 
+  background: olive;
+} */
 
 
-/* .divpro {
+/* div {
   display: inline-block;
 }
 
